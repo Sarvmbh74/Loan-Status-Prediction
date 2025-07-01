@@ -58,6 +58,17 @@ Several algorithms were trained and evaluated:
 - **Gradient Boosting Classifier**
 
 All models were validated using **train/test split** and **K-Fold Cross Validation** to ensure robust performance.
+----
+## Results
+
+| Model               | Accuracy (CV Avg) |
+| ------------------- | ----------------- |
+| Logistic Regression | 80.48%            |
+| SVC                 | 80.66%            |
+| Decision Tree       | 70.89%            |
+| Random Forest       | 80.66%            |
+| Gradient Boosting   | 77.4%             |
+
 
 **Best Result:**  
 The **Random Forest Classifier** with hyperparameter tuning gave the best cross-validation score (~80.66%) and balanced performance, handling non-linearities and feature importance well.
@@ -82,16 +93,6 @@ The final tuned Random Forest model was saved using **joblib** (`loan_status_pre
 
 A simple **Streamlit web app** was created to deploy this model. Users can input applicant details through a user-friendly interface and get instant loan approval predictions.
 
-----
-## Results
-
-| Model               | Accuracy (CV Avg) |
-| ------------------- | ----------------- |
-| Logistic Regression | 80.48%            |
-| SVC                 | 80.66%            |
-| Decision Tree       | 70.89%            |
-| Random Forest       | 80.66%            |
-| Gradient Boosting   | 77.4%             |
 
 
 
