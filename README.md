@@ -93,6 +93,12 @@ The final tuned Random Forest model was saved using **joblib** (`loan_status_pre
 
 A simple **Streamlit web app** was created to deploy this model. Users can input applicant details through a user-friendly interface and get instant loan approval predictions.
 
+---
+
+## 💡 Conclusion
+Using machine learning, we built a reliable loan status prediction system. This tool can help banks and financial institutions streamline the loan approval process and make quick, data-driven decisions.
+
+
 
 
 
