@@ -2,6 +2,7 @@
 https://loan-status-prediction-ixcy5yvjdqodon7gykwztj.streamlit.app/
 
 # 🏦 Loan Status Prediction Using Machine Learning
+<img src = "https://github.com/Sarvmbh74/Loan-Status-Prediction/blob/a8265f3085f75438b73f7f83c480ce66fa9ce3f8/loans_status_img.png" alt="Logo" width="300"/>
 
 ## 📌 Definition
 
